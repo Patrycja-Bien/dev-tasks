@@ -1,0 +1,24 @@
+@import "../../assets/styles/theme";
+
+input {
+    margin: 2px;
+    border: solid black;
+}
+input::placeholder {
+    color: rgb(169, 169, 169);
+}
+form {
+    display: grid;
+    justify-content: center;
+    margin: 5px;
+}
+.submit {
+    justify-self: end;
+    border: none;
+    background-color: rgb(203, 203, 203);
+    color: black;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
